@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pomodoro timer</title>
+    <script defer src="src/index.js"></script>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./src/styles.css" />
+  </head>
+  <body>
+    <div id="main-header">
+      <h1 id="status-msg">Ready to start working?</h1>
+      <p id='description'>Using the pomodoro method: work for 25min, rest for 5min</p>
+    </div>
+
+    <div id="aim-container">
+      <p id='aim-description'>I aim to:</p>
+      <input type="text" placeholder="Enter a task" id='aim-text-input'>
+      <p id='aim-text' hidden></p>
+      <button id='aim-button'>Enter</button>
+    </div>
+
+    <div id="countdown-container">
+    </div>
+
+    <div id="start-stop-buttons-container">
+      <button id="start-stop-button">Start working!</button>
+    </div>
+
+    <div id="motiv-msg-container">
+      <p id='motiv-msg'>“We do today what they won’t, so tomorrow we can accomplish what they can’t.” <br>– Dwayne ‘The Rock’ Johnson</p>
+    </div>
+
+  </body>
+</html>

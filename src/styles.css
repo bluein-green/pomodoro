@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+input[type=text] {
+  width: 50%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+}
